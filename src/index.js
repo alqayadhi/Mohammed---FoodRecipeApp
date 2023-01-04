@@ -1,7 +1,8 @@
-const searchBtn = document.getElementById('search-btn'),
-mealList = document.getElementById('meal'),
+    
+const searchBtn = document.querySelector('.search-btn'),
+mealList = document.querySelector('.meal'),
 mealDetailsContent = document.querySelector('.meal-details-content');
-const recipeCloseBtn = document.getElementById('recipe-close-btn');
+const recipeCloseBtn = document.querySelector('.recipe-close-btn');
 
 // event listeners 
 searchBtn.addEventListener("click", getMealList);
